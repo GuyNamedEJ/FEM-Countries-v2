@@ -38,16 +38,15 @@ body{
 .country-detail {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:center;
+    gap:144px;
     padding:80px;
-    gap: 50px;
-    max-width: 1440px;
     margin: auto ;
 }
 
 .info{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 140px;
 }
 
@@ -58,6 +57,7 @@ body{
 .borders{
     display:flex;
     align-items: center;
+    flex-wrap: wrap;
     gap:10px;
 }
 
@@ -71,4 +71,14 @@ body{
 
 .flag-desc {
     text-align: center;
+}
+
+.detail-content {
+   display:flex;
+   flex-direction: column;
+   max-width: 900px;
+}
+
+.panel{
+    max-width: 500px;
 }

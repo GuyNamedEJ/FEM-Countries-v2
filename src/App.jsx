@@ -4,18 +4,16 @@ import Home from "./Pages/Home";
 import "./App.css";
 
 function App() {
-  
   return (
     <>
-    <BrowserRouter>
-       
-
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/:name" element={<CountryDetail />}/>
-        </Routes>
-    </BrowserRouter>
-      
+      <main className="theme">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/:name" element={<CountryDetail />} />
+          </Routes>
+        </BrowserRouter>
+      </main>
     </>
   );
 }
